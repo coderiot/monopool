@@ -45,6 +45,11 @@ html {
   }
 }
 
+body {
+  color: #f8f8f2;
+  background-color: #242424;
+}
+
 
 /*
  * Sidebar
