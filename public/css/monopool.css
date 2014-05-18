@@ -145,6 +145,7 @@ a.pagination-item:hover {
 a.pagination-item:focus {
   outline: none;
 }
+
 /*
  * Sidebar
  *
@@ -172,6 +173,10 @@ a.pagination-item:focus {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
 }
 
 /* About section */
