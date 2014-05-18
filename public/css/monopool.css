@@ -119,6 +119,14 @@ tbody tr:nth-child(odd) th {
     text-decoration: underline;
 }
 
+.related {
+  border-top: 1px solid #404040;
+}
+
+.related-posts li a:hover {
+  color: #ff007f;
+}
+
 /*
  * Sidebar
  *
