@@ -61,11 +61,7 @@ a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: bold;
-  line-height: 1.25;
   color: #ff007f;
-  text-rendering: optimizeLegibility;
 }
 
 strong {
@@ -80,6 +76,20 @@ hr {
 abbr {
   color: #7a7a7a;
 }
+
+code,
+pre {
+  font-family: 'Cousine';
+}
+code {
+  color: #e6db74;
+  background-color: #1B1B1E;
+}
+
+pre {
+  background-color: #1B1B1E;
+}
+
 /*
  * Sidebar
  *
