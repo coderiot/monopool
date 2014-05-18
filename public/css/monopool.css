@@ -80,14 +80,28 @@ abbr {
 code,
 pre {
   font-family: 'Cousine';
-}
-code {
-  color: #e6db74;
   background-color: #1B1B1E;
 }
 
-pre {
-  background-color: #1B1B1E;
+code {
+  color: #e6db74;
+}
+
+blockquote {
+  border-left: .25rem solid #404040;
+}
+
+table {
+  border: 1px solid #303030;
+}
+
+td,
+th {
+  border: 1px solid #404040;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #1B1B1B;
 }
 
 /*
