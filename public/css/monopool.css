@@ -127,6 +127,24 @@ tbody tr:nth-child(odd) th {
   color: #ff007f;
 }
 
+.pagination {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.pagination-item {
+  border: 1px solid #404040;
+}
+
+.pagination-item:first-child {
+  margin-bottom: -1px;
+}
+
+a.pagination-item:hover {
+  background-color: #202020;
+}
+a.pagination-item:focus {
+  outline: none;
+}
 /*
  * Sidebar
  *
