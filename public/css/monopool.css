@@ -109,6 +109,16 @@ tbody tr:nth-child(odd) th {
   background-color: #1B1B1E;
 }
 
+.page-title,
+.post-title,
+.post-title a {
+  color: #A2D92B;
+}
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+
 /*
  * Sidebar
  *
