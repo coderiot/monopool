@@ -6,19 +6,19 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Hyde
+title:            monopool
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme based on Monokai and Poole.'
+url:               https://github.com/coderiot/monopool
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'peterr'
+  url:            https://github.com/coderiot
 
-paginate:         5
+paginate:         2
 
 # Custom vars
-version:          2.0.0
+version:          1.0.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/coderiot/monopool
