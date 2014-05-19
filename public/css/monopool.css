@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48rem) {
   html {
@@ -45,6 +45,106 @@ html {
   }
 }
 
+body {
+  color: #f8f8f2;
+  background-color: #242424;
+}
+
+a {
+  color: #ff007f;
+}
+
+a:hover,
+a:focus {
+  color: #A2D92B;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff007f;
+}
+
+strong {
+  color: #fff;
+}
+
+hr {
+  border-top: 1px solid #404040;
+  border-bottom: 1px solid #303030;
+}
+
+abbr {
+  color: #7a7a7a;
+}
+
+code,
+pre {
+  font-family: 'Cousine';
+  background-color: #1B1B1E;
+}
+
+code {
+  color: #e6db74;
+}
+
+blockquote {
+  border-left: .25rem solid #404040;
+}
+
+table {
+  border: 1px solid #303030;
+}
+
+td,
+th {
+  border: 1px solid #404040;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #1B1B1B;
+}
+
+.message {
+  color: #f9f9f9;
+  background-color: #1B1B1E;
+}
+
+.page-title,
+.post-title,
+.post-title a {
+  color: #A2D92B;
+}
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+
+.related {
+  border-top: 1px solid #404040;
+}
+
+.related-posts li a:hover {
+  color: #ff007f;
+}
+
+.pagination {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.pagination-item {
+  border: 1px solid #404040;
+}
+
+.pagination-item:first-child {
+  margin-bottom: -1px;
+}
+
+a.pagination-item:hover {
+  background-color: #202020;
+}
+a.pagination-item:focus {
+  outline: none;
+}
 
 /*
  * Sidebar
@@ -75,11 +175,15 @@ html {
   color: #fff;
 }
 
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
 /* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "Inconsolata", serif;
   font-size: 3.25rem;
 }
 
@@ -164,87 +268,4 @@ a.sidebar-nav-item:focus {
     margin-left: 4rem;
     margin-right: 22rem;
   }
-}
-
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-.theme-base-08 .sidebar {
-  background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
-}
-
-/* Orange */
-.theme-base-09 .sidebar {
-  background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-  color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-  color: #90a959;
-}
-
-/* Cyan */
-.theme-base-0c .sidebar {
-  background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
-}
-
-/* Blue */
-.theme-base-0d .sidebar {
-  background-color: #6a9fb5;
-}
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
-}
-
-/* Magenta */
-.theme-base-0e .sidebar {
-  background-color: #aa759f;
-}
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
-}
-
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #8f5536;
-}
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
 }
