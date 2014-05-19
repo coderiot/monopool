@@ -20,13 +20,13 @@
         {% if node.title != null %}
           {% if node.layout == "page" %}
             <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
-              <a href="{{ node.url }}">{{ node.title }}</a>
+              <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
             </li>
           {% endif %}
         {% endif %}
       {% endfor %}
 
-      <li class="sidebar-nav-item"><a href="/archives">Archive</a></li>
+      <li class="sidebar-nav-item"><a href="{{ site.baseurl }}/archives">Archive</a></li>
       <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></li>
       <li class="sidebar-nav-item">Currently v{{ site.version }}</li>
     </ul>
